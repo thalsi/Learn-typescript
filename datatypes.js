@@ -1,0 +1,53 @@
+// ====================== 3. Data Typea =========================
+/*
+    1. Built-in Datatypes (Primitive types)
+        1. number
+        2. string
+        3. boolean
+        4. null
+        5. undefind
+        6. symbol
+    2. User-defined Data Types (Object types)
+        1. array
+        2. functions
+        3. class
+        4. Touple
+        5. Enum
+        6. interface
+*/
+//---------------------- 1. number ----------------------------------------
+var num = 3445;
+console.log('print =' + num);
+console.log('type of ' + typeof num);
+//1. toString()
+console.log('convert to string--->' + num.toString());
+console.log('convert to string typeof-->' + typeof num.toString());
+console.log('convert to string typeof-->' + typeof (3 + 5).toString());
+//2 .toFixed()
+var num1 = 4.3443;
+console.log(num1);
+console.log('toFixed -->' + num1.toFixed(0));
+console.log('toFixed -->' + num1.toFixed(2));
+//3. toPrecision()
+var num2 = 300.4353;
+console.log(num1);
+console.log('toPrecision -->' + num2.toPrecision(1));
+console.log('toPrecision -->' + typeof num2.toPrecision(2));
+console.log('toPrecision -->' + num2.toPrecision(4));
+//4. valueOf()
+var num3 = 67;
+console.log(num3);
+console.log('valueOf -->' + num3.valueOf());
+//5.Number()
+console.log('number convert boolean -->' + Number(true));
+console.log('number convert boolean -->' + Number(false));
+console.log('number convert "10" -->' + Number("10"));
+console.log('number convert "10.45" -->' + Number("10.45"));
+console.log('number convert "10,20" -->' + Number("10,20"));
+console.log('number convert string -->' + Number('thalseeh'));
+//6.parseInt()
+console.log('parseInt "10"' + parseInt("10"));
+console.log('parseInt "10.34345"' + parseInt("10.34345"));
+console.log('parseInt "10,20,30"' + parseInt("10,20,30"));
+console.log('parseInt "10 thalsee"' + parseInt("10 thalseeh"));
+console.log('parseInt "thalsee 10"' + parseInt("thalsee 10"));
