@@ -54,3 +54,35 @@
       5. Number() - convert JavaScript variables to numbers.
       6. parseInt() - pass string and returns a whole number.Only the first number is returned.
       7. parseFloat() - pass string and returns a number.Only the first number is returned.
+  2.  string
+      1. indexOf()
+         - (substr, [start])
+         - returns the index position of character value passed with method. If not found, -1 is returned.
+      2. lastIndexOf()
+         - (substr, [end])
+         - returns the last index position of character value passed with method. If not found, -1 is returned.
+      3. replace()
+         - (originalstr,newstr)
+         - search for a specified regular expression in a given string and then replace it if the match occurs.
+      4. slice()
+         - (start, [end])
+         - returns a substring of the string based on the “start” and “end” index arguments.
+      5. split()
+         - converts a string into an array.
+      6. trim()
+         - returns a new string with removed white space from the start and end of the string.
+      7. trimStart()
+         - eturns a new string with removed white space from the start of the string.
+      8. trimEnd()
+         - returns a new string with removed white space from the end of the string.
+      9. charAt()
+         - Returns the character at the “x” position within the string.
+      10. concat()
+      - Combines one or more strings into the existing one and returns the combined string.
+      11. includes()
+      - (searchString)
+      - searching String may be found string retun boolean.
+      12. toUpperCase()
+      13. toLowerCase()
+      14. endsWith()
+      - string ends with the searching string.
