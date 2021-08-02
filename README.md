@@ -40,6 +40,27 @@
       6. symbol
   2.  User-defined Data Types (Object types)
       1. array
+         - we can store multiple value in single varbile
+         - Two ways to declare an Array
+           1. square barcket -let arr:string[]
+           2. genaric Array -let arr: Array<string>
+         - Two datatype Array
+           1. single type
+              - let a:string[] | let a:Array<string>
+           2. multiple type
+              - let a:(string|number) | let a:Array<string|number>
+         - Two type of Array
+           1. signle dimention
+              - let a:string[]
+           2. multiple dimention
+              - let a:string[][]
+         - Accessing Array Elements
+           1. using the index [0]
+           2. regular for loop
+           3. for..of
+           4. forEach()
+           5. for..in
+              - dot use this. iterate an array because that iterates all enumerable properties
       2. functions
       3. class
       4. Touple
