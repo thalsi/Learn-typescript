@@ -17,6 +17,9 @@
 */
 
 
+
+
+
 //---------------------- 1. number ----------------------------------------
 var num: number = 3445;
 console.log('print =' + num);
@@ -75,7 +78,13 @@ console.log('parseFloat "thalsee 10" -->' + parseFloat("thalsee 10"));
 
 
 
-//---------------------- 1. string ----------------------------------------
+
+
+
+
+//---------------------- 2. string ----------------------------------------
+
+
 let google = "Java and Javascript are not same !";
 let google2 = "Ja va, and, Javascript, are, not, same !";
 
@@ -126,18 +135,39 @@ console.log("charAt(3) -->" + google3.charAt(3));
 let concatStr = 'abc';
 console.log("concat(str, str1) -->" + concatStr.concat('WEEW', '......'));
 
-//11.string.includes()
-console.log("includes('Java') -->" + google.includes('Java'));
 
-//12.toLowerCase
+//11.toLowerCase
 console.log("toLowerCase-->" + google.toLowerCase());
 
-//13.toUpperCase
+//12.toUpperCase
 console.log("toUpperCase-->" + google.toUpperCase());
 
-//14. EndsWith(searchString[, length]) 
-console.log("toUpperCase-->" + google.endsWith("same"));
-console.log("toUpperCase-->" + google.endsWith("a", 5));
+
+
+
+
+
+//---------------------- 3. boolean ----------------------------------------
+let boolea: boolean = false;
+console.log("boolean-->" + boolea);
+
+
+
+
+
+//---------------------- 3. null ----------------------------------------
+let nulls = null;
+console.log(nulls);
+console.log(typeof nulls);
+
+//---------------------- 4. undefind ----------------------------------------
+let undefinds = undefined;
+console.log(undefinds);
+console.log(typeof undefinds);
+console.log(undefined == null);
+console.log(undefined === null);
+
+
 
 
 

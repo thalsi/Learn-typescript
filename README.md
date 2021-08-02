@@ -35,8 +35,8 @@
       1. number
       2. string
       3. boolean
-      4. null
-      5. undefind
+      4. null - null is an assignment value (typeof object)
+      5. undefind - undefind not been assignment value (typeof undefind)
       6. symbol
   2.  User-defined Data Types (Object types)
       1. array
@@ -78,11 +78,6 @@
       9. charAt()
          - Returns the character at the “x” position within the string.
       10. concat()
-      - Combines one or more strings into the existing one and returns the combined string.
-      11. includes()
-      - (searchString)
-      - searching String may be found string retun boolean.
-      12. toUpperCase()
-      13. toLowerCase()
-      14. endsWith()
-      - string ends with the searching string.
+          - Combines one or more strings into the existing one and returns the combined string.
+      11. toUpperCase()
+      12. toLowerCase()

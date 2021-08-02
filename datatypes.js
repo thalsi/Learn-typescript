@@ -57,7 +57,7 @@ console.log('parseFloat "10.34345" -->' + parseFloat("10.34345")); //compare par
 console.log('parseFloat "10,20,30" -->' + parseFloat("10,20,30"));
 console.log('parseFloat "10 thalsee" -->' + parseFloat("10 thalseeh"));
 console.log('parseFloat "thalsee 10" -->' + parseFloat("thalsee 10"));
-//---------------------- 1. string ----------------------------------------
+//---------------------- 2. string ----------------------------------------
 var google = "Java and Javascript are not same !";
 var google2 = "Ja va, and, Javascript, are, not, same !";
 // 1. string.indexOf(substr, [start])
@@ -96,3 +96,13 @@ console.log("charAt(3) -->" + google3.charAt(3));
 //10. string.concat()
 var concatStr = 'abc';
 console.log("concat(str, str1) -->" + concatStr.concat('WEEW', '......'));
+//11.toLowerCase
+console.log("toLowerCase-->" + google.toLowerCase());
+//12.toUpperCase
+console.log("toUpperCase-->" + google.toUpperCase());
+//---------------------- 3. boolean ----------------------------------------
+var boolea = false;
+console.log("boolean-->" + boolea);
+//---------------------- 3. null ----------------------------------------
+console.log(typeof null);
+console.log(typeof undefined);
