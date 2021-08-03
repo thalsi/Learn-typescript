@@ -40,27 +40,6 @@
       6. symbol
   2.  User-defined Data Types (Object types)
       1. array
-         - we can store multiple value in single varbile
-         - Two ways to declare an Array
-           1. square barcket -let arr:string[]
-           2. genaric Array -let arr: Array<string>
-         - Two datatype Array
-           1. single type
-              - let a:string[] | let a:Array<string>
-           2. multiple type
-              - let a:(string|number) | let a:Array<string|number>
-         - Two type of Array
-           1. signle dimention
-              - let a:string[]
-           2. multiple dimention
-              - let a:string[][]
-         - Accessing Array Elements
-           1. using the index [0]
-           2. regular for loop
-           3. for..of
-           4. forEach()
-           5. for..in
-              - dot use this. iterate an array because that iterates all enumerable properties
       2. functions
       3. class
       4. Touple
@@ -102,3 +81,44 @@
           - Combines one or more strings into the existing one and returns the combined string.
       11. toUpperCase()
       12. toLowerCase()
+  3.  Array
+      - we can store multiple value in single varbile
+      - Two ways to declare an Array
+        1.  square barcket -let arr:string[]
+        2.  genaric Array -let arr: Array<string>
+      - Two datatype Array
+        1.  single type
+            - let a:string[] | let a:Array<string>
+        2.  multiple type
+            - let a:(string|number) | let a:Array<string|number>
+      - Two type of Array
+        1.  signle dimention
+            - let a:string[]
+        2.  multiple dimention
+            - let a:string[][]
+      - Accessing Array Elements
+        1.  using the index [0]
+        2.  regular for loop
+        3.  for..of
+        4.  forEach()
+        5.  for..in
+            - dot use this. iterate an array because that iterates all enumerable properties
+      - Methords
+        1.  Array.length
+        2.  Array.push('')
+            - array End postion element add.
+        3.  Array.pop()
+            - array End paostion element remove.
+        4.  Array.shift()
+            - remove element frond in array
+        5.  Array.unshift('')
+            - add element in frond in array
+        6.  Array.splice(pos,item)
+            - index postion reomve element
+        7.  Array.slice()
+            - copy an array
+        8.  Array.at() - NOT USE TYPESCPIT
+            - at(postiveIndex) - frond strat element display
+            - at(nacativeIndex) - End strat element dispaly
+        9.  Array.concat()
+        - retrun new array join
