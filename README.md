@@ -6,6 +6,23 @@
 - TypeScript gives support for modules whereas JavaScript does not support modules.
 - TypeScript has Interface but JavaScript does not have Interface.
 
+## Javascpit and Typescrpit
+
+- Typescpit is a Oject-Oriented language
+- Typescpit has a featrue know as Static typing
+- Typescpit gives support for modules
+- Typescpit support optional parameter
+- Javascpit a scrping language
+- Javascpit does not have static typing
+- Javascpit does not support modules
+- Javascpit does not support optional parameter
+
+## benefits of TypeScpit
+
+- fast, simple and easy to lrean an run any boswer or javascpit engine
+- simler to javascpit
+- typescpit code extenting javascpit code
+
 ## tsc
 
 - tsc typeScrpit_FileName.ts
@@ -39,86 +56,19 @@
       5. undefind - undefind not been assignment value (typeof undefind)
       6. symbol
   2.  User-defined Data Types (Object types)
-      1. array
+      1. array - we can store multiple value in single varbile
       2. functions
       3. class
       4. Touple
       5. Enum
       6. interface
-- Methords
-  1.  number
-      1. toString()
-      2. toFixed() - specified number of decimals
-      3. toPrecision() - specified length.
-      4. valueOf()
-      5. Number() - convert JavaScript variables to numbers.
-      6. parseInt() - pass string and returns a whole number.Only the first number is returned.
-      7. parseFloat() - pass string and returns a number.Only the first number is returned.
-  2.  string
-      1. indexOf()
-         - (substr, [start])
-         - returns the index position of character value passed with method. If not found, -1 is returned.
-      2. lastIndexOf()
-         - (substr, [end])
-         - returns the last index position of character value passed with method. If not found, -1 is returned.
-      3. replace()
-         - (originalstr,newstr)
-         - search for a specified regular expression in a given string and then replace it if the match occurs.
-      4. slice()
-         - (start, [end])
-         - returns a substring of the string based on the “start” and “end” index arguments.
-      5. split()
-         - converts a string into an array.
-      6. trim()
-         - returns a new string with removed white space from the start and end of the string.
-      7. trimStart()
-         - eturns a new string with removed white space from the start of the string.
-      8. trimEnd()
-         - returns a new string with removed white space from the end of the string.
-      9. charAt()
-         - Returns the character at the “x” position within the string.
-      10. concat()
-          - Combines one or more strings into the existing one and returns the combined string.
-      11. toUpperCase()
-      12. toLowerCase()
-  3.  Array
-      - we can store multiple value in single varbile
-      - Two ways to declare an Array
-        1.  square barcket -let arr:string[]
-        2.  genaric Array -let arr: Array<string>
-      - Two datatype Array
-        1.  single type
-            - let a:string[] | let a:Array<string>
-        2.  multiple type
-            - let a:(string|number) | let a:Array<string|number>
-      - Two type of Array
-        1.  signle dimention
-            - let a:string[]
-        2.  multiple dimention
-            - let a:string[][]
-      - Accessing Array Elements
-        1.  using the index [0]
-        2.  regular for loop
-        3.  for..of
-        4.  forEach()
-        5.  for..in
-            - dot use this. iterate an array because that iterates all enumerable properties
-      - Methords
-        1.  Array.length
-        2.  Array.push('')
-            - array End postion element add.
-        3.  Array.pop()
-            - array End paostion element remove.
-        4.  Array.shift()
-            - remove element frond in array
-        5.  Array.unshift('')
-            - add element in frond in array
-        6.  Array.splice(pos,item)
-            - index postion reomve element
-        7.  Array.slice()
-            - copy an array
-        8.  Array.at() - NOT USE TYPESCPIT
-            - at(postiveIndex) - frond strat element display
-            - at(nacativeIndex) - End strat element dispaly
-        9.  Array.concat()
-        - retrun new array join
+
+## 3.Loops
+
+1.  while
+2.  do..while
+3.  for
+4.  for..in
+5.  for..of
+
+## 4. Class

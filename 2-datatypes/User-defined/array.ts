@@ -7,6 +7,52 @@ array types -both are same output
     2. ganaric Array
 */
 
+/*
+
+ 
+  3.  Array
+      - Two ways to declare an Array
+        1.  square barcket -let arr:string[]
+        2.  genaric Array -let arr: Array<string>
+      - Two datatype Array
+        1.  single type
+            - let a:string[] | let a:Array<string>
+        2.  multiple type
+            - let a:(string|number) | let a:Array<string|number>
+      - Two type of Array
+        1.  signle dimention
+            - let a:string[]
+        2.  multiple dimention
+            - let a:string[][]
+      - Accessing Array Elements
+        1.  using the index [0]
+        2.  regular for loop
+        3.  for..of
+        4.  forEach()
+        5.  for..in
+            - dot use this. iterate an array because that iterates all enumerable properties
+      - Methords
+        1.  Array.length
+        2.  Array.push('')
+            - array End postion element add.
+        3.  Array.pop()
+            - array End paostion element remove.
+        4.  Array.shift()
+            - remove element frond in array
+        5.  Array.unshift('')
+            - add element in frond in array
+        6.  Array.splice(pos,item)
+            - index postion reomve element
+        7.  Array.slice()
+            - copy an array
+        8.  Array.at() - NOT USE TYPESCPIT
+            - at(postiveIndex) - frond strat element display
+            - at(nacativeIndex) - End strat element dispaly
+        9.  Array.concat()
+        - retrun new array join
+
+*/
+
 //1. array deactation
 let array1: string[] = ['a', 'b', 'c'];
 let array2: Array<string> = ['aaa', 'bbb', 'ccc'];
@@ -96,6 +142,12 @@ let a11: string[] = ['e', 'we'];
 let a22: string[] = ['dsf', 'xgd'];
 let a33: string[] = a11.concat(a22);
 console.log('concat --->' + a33);
+
+//10.copyWithin()
+// let arra: string[] = ['a', 'b', 'c', 'd', 'e'];
+// console.log(arra);
+// console.log(arra.copyWithin(0, 3, 6));
+
 
 
 

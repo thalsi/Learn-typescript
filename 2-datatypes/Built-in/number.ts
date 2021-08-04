@@ -1,6 +1,16 @@
 
 
 //---------------------- 1. number ----------------------------------------
+/*
+1.  number
+      1. toString()
+      2. toFixed() - specified number of decimals
+      3. toPrecision() - specified length.
+      4. valueOf()
+      5. Number() - convert JavaScript variables to numbers.
+      6. parseInt() - pass string and returns a whole number.Only the first number is returned.
+      7. parseFloat() - pass string and returns a number.Only the first number is returned.
+*/
 var num: number = 3445;
 console.log('print =' + num);
 console.log('type of ' + typeof num);
