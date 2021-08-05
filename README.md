@@ -75,4 +75,23 @@
 
 ## 4. Function
 
-- function is a block of code
+- Function is a block of code
+- JavaScript supports overriding not overloading
+- Method Overloading and Method Overriding support in typescpit
+
+1. Named function
+2. Nameless(anonymous) function
+   - does not have any name
+   1. Immediate execution of a function
+   2. object inside function of value in javascript
+3. Arrow function
+   - ES6 introduced a new and shorter way of declaring an anonymous function
+   1. single statement returns a value, remove brackets and return keyword:
+   2. multipe statement returns a value, apply brackes and return keyword:
+   3. Arrow Function as an Expression
+   4. object inside function of value in javascript
+4. Callback function
+   - A callback function is a function passed into another function as an argument
+   - Benefit of Callback Function
+     - wait for the result of a previous function call and then execute another function call.
+   - examples :- filter(),sort()...

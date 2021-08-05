@@ -6,6 +6,22 @@
 5. for..in
 6. brack / contion
 */
+var userLoop = [
+    { rollNo: 1001, name: 'ali' },
+    { rollNo: 1002, name: 'Lijo' },
+    { rollNo: 1003, name: 'Shamer' },
+    { rollNo: 1004, name: 'Shamon' },
+    { rollNo: 1005, name: 'Kuttu' }
+];
+var userLoop1 = {
+    name: 'ali mon',
+    age: 34,
+    detials: {
+        id: 34,
+        adreess: 'kottayam'
+    }
+};
+var userLoop2 = "Thalseeh C M";
 var i = 0;
 //1. while loop
 while (i < 5) {
@@ -18,15 +34,6 @@ do {
     console.log('do while -->' + ii);
     ii++;
 } while (ii < 5);
-var userLoop = [
-    { rollNo: 1001, name: 'ali' },
-    { rollNo: 1002, name: 'Lijo' },
-    { rollNo: 1003, name: 'Shamer' },
-    { rollNo: 1004, name: 'Shamon' },
-    { rollNo: 1005, name: 'Kuttu' }
-];
-var userLoop1 = ["ali muthu ck", "Arshad", "Kuttan", "Mahin"];
-var userLoop2 = "Thalseeh C M";
 //3. for
 console.log("--------for -------------");
 for (var i_1 = 0; i_1 < userLoop.length; i_1++) {
@@ -60,3 +67,12 @@ userLoop.forEach(function (value, index) {
     console.log(value);
     console.log(index);
 });
+// loop in Object
+console.log('================ loop in object =============');
+for (var i_5 in userLoop1) {
+    console.log(i_5);
+    console.log(userLoop1[i_5]);
+    if (userLoop1.hasOwnProperty(i_5)) {
+        console.log('condition-->' + i_5);
+    }
+}
