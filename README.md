@@ -54,7 +54,8 @@
       3. boolean
       4. null - null is an assignment value (typeof object)
       5. undefind - undefind not been assignment value (typeof undefind)
-      6. symbol
+      6. void
+      7. symbol
   2.  User-defined Data Types (Object types)
       1. array - we can store multiple value in single varbile
       2. functions
@@ -70,5 +71,8 @@
 3.  for
 4.  for..in
 5.  for..of
+6.  forEach()
 
-## 4. Class
+## 4. Function
+
+- function is a block of code
