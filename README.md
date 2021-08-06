@@ -95,3 +95,27 @@
    - Benefit of Callback Function
      - wait for the result of a previous function call and then execute another function call.
    - examples :- filter(),sort()...
+
+## 5. Opps
+
+- Object oriented programming, or OOP for short, is a popular approach to solving problems in programming languages.
+- Easier debuging
+- Effective problem solving
+
+1. class & object
+   - Class is user defined blueprint.
+   1. Set of properties or methods
+   2. instantitate an object of a class
+   3. access propartys and methords
+   4. constructor
+   5. this
+   6. access Modifiers
+      - Public
+      - Private
+      - Protected
+   7. Static
+      - Static variables
+      - Static methods
+   8. readonly, optional parameters
+   9. super
+2.
