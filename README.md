@@ -118,4 +118,7 @@
       - Static methods
    8. readonly, optional parameters
    9. super
-2.
+2. Inheritance
+3. Encapsulation
+4. Abstraction
+5. Polymorphism
